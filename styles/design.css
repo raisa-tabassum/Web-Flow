@@ -4,6 +4,9 @@
   font-weight: 500;
   font-style: normal;
 }
+body{
+    background-color: #f3f8f8;
+}
 .nav-banner{
     display: flex;
     justify-content: space-between;
@@ -23,15 +26,207 @@ nav p{
     font-size: 16px;
     border: none;
 }
+.btn-style:hover{
+    background-color: #97e1eb;
+    color: blue;
+    padding: 17px 31px;
+    /* transition-property: width; */
+    transition-duration: 1s;
+    transition-timing-function: ease-out ;
+    transition-delay: 0.2s;
+    cursor:pointer;
+}
 .banner{
     background-image: url('../Assets/Hero-bg.png');
     margin: 0;
-    width: 1440px;
-    height: 698px;
+    width: 1300px;
+    height: 600px;
 }
 .banner-content{
     text-align: center;
 }
 .banner-content h1{
     font-size: 65px;
+}
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 328px;
+    margin: 120px 100px;
+}
+.action-img{
+    border-radius: 48px;
+}
+.action-title{
+    font-size: 42px;
+}
+.action-subtitle{
+    color: #b1b1b1;
+    font-size: 24px;
+}
+
+.productive-users-section{
+    background-color: rgb(220, 220, 255);
+    border-radius: 24px;
+    width: 1050px;
+    height: 250px;
+    margin: 120px;
+    padding: 80px 50px;
+}
+.productive-users-title{
+    text-align: center;
+    display: block;
+}
+.productive-users-subtitles{
+    display: flex;
+    justify-content: space-around;
+}
+.productive-users-subtitles h2{
+    color: #4E47FF;
+    font-size: 80px;
+    line-height: 0.1;
+}
+.productive-users-subtitles p{
+    font-size: 20px;
+    text-align: center;
+    color: #707070;
+}
+.users-feedback-section{
+    width: 1140px;
+    height: 342px;
+    margin: 120px;
+}
+.feedback-title h1{
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    display: block;
+}
+.feedback-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.card{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+    width: 367px;
+    height: 243px;
+}
+.card-text p{
+    font-weight: 400;
+}
+.card-reviewer-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer-text{
+    line-height: 0.2;
+}
+.reviewer-text h5{
+    color: #757575;
+}
+.reviewer-text p{
+    color: #B3B3B3;
+}
+.focus-section{
+    background-color: #FFFFFF;
+    width: 1050px;
+    height: 560px;
+    margin: 120px;
+    padding: 80px 50px;
+    border-radius: 14px;
+}
+.focus-text{
+    text-align: center;
+}
+.focus-text h1{
+    font-size: 50px;
+    line-height: 0.3;
+}
+.focus-text p{
+    font-size: 16px;
+    color: #888888;
+}
+.focus-image{
+    border-radius: 48px;
+    width: 840px;
+    height: 365px;
+    margin: 20px 120px 40px;
+}
+
+.get-in-touch-section{
+    width: 1050px;
+    height: 540px;
+    margin: 120px;
+    padding: 80px 50px;
+}
+.get-in-touch-content{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+.get-in-touch-title{
+    font-size: 45px;
+    align-items: center;
+}
+.get-in-touch-form{
+    width: 497px;
+    font-size: 18px;
+    line-height: 2.2;
+}
+.get-in-touch-form input,.get-in-touch-form textarea{
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 16px 34px;
+    width: 100%;
+}
+.get-in-touch-form input{
+    height: 50px;
+}
+.get-in-touch-form textarea{
+    height: 130px;
+}
+.touch-button{
+    width: 560px;
+    height: 65px;
+}
+
+.logo-section{
+    background-color: #FFFFFF;
+    margin: 0;
+    width: 1300px;
+    height: 428px;
+}
+.logo-content{
+    text-align: center;
+    padding: 70px 385px;
+    width: 531px;
+    height: 221px;
+    line-height: 20px;
+}
+.logo-text h1{
+    font-size: 6em;
+    color: #4E47FF;
+    font-weight: 900;
+}
+.logo-link li{
+    list-style: none;
+    text-decoration:none;
+}
+.logo-link a{
+    text-decoration:none;
+}
+.logo-text p,.logo-link a{
+    color: #8987A1;
+}
+.logo-link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
